@@ -28,3 +28,7 @@ let funcao = () => {}
 let n = null
 
 const carros = ['monza', 'amarock', 'ecosport']
+
+carros.forEach((carro, i) => {
+    console.log('O ' + (i + 1) + '° - carro é: ' + carro)
+})
